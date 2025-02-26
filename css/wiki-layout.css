@@ -140,6 +140,55 @@ ol.contents li a {
   color: var(--font-default-color);
 }
 
+.comment-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 96%;
+  background: white;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  margin: 20px auto;
+}
+
+.comment-textarea {
+  width: 100%;
+  height: 12px;
+  padding: 4px;
+  border: none;
+  border-radius: 8px;
+  resize: none;
+  font-size: 14px;
+  outline: none;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.button-group {
+  display: flex;
+  gap: 8px;
+  margin-left: 10px;
+}
+
+.cancel-btn,
+.submit-btn {
+  width: 88px;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.cancel-btn {
+  background: #f2f2f2;
+}
+
+.submit-btn {
+  background: #d0ece7;
+}
+
 footer {
   display: flex;
   flex-direction: column;
