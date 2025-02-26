@@ -191,6 +191,19 @@ ol.contents li a {
   color: #007f5f;
 }
 
+.comment-list {
+  width: 96%;
+  margin: 10px auto;
+}
+
+.comment-item {
+  background: #f9f9f9;
+  padding: 10px;
+  border-radius: 6px;
+  margin-top: 8px;
+  border: 1px solid #ddd;
+}
+
 footer {
   display: flex;
   flex-direction: column;
