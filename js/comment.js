@@ -36,6 +36,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
       commentList.appendChild(commentItem);
       commentInput.value = "";
+
+      alert("댓글이 등록되었습니다");
     }
   });
 
