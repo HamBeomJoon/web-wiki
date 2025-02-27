@@ -9,8 +9,7 @@ document.addEventListener("DOMContentLoaded", function () {
       commentItem.classList.add("comment-item");
 
       const profileImg = document.createElement("img");
-      profileImg.src =
-        "https://hambeomjoon.github.io/web-wiki/images/comment-authot-icon.png";
+      profileImg.src = "./images/comment-author-icon.png";
       profileImg.alt = "프로필 이미지";
       profileImg.classList.add("profile-img");
 
